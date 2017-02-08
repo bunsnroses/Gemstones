@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="css/style.css">
+  <style>
+body {
+    background-image: url("http://umad.com/img/2016/10/illusion-gif-11854-12292-hd-wallpapers.jpg");
+}
+</style>
+  </head>
+  <body>
+  <h2>
+    Your Birthstone Is: <%=@result%> 
+    <img src="<%=@pic%>">
+    </h2>
+    <button onclick="goBack()">Go Back</button>
+  <script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    
+  </body>
+</html>
